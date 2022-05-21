@@ -1,0 +1,52 @@
+.container {
+  margin-top: 7rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "l-unit r-unit";
+}
+
+.l-unit {
+  grid-area: l-unit;
+  text-align: center;
+}
+
+.r-unit {
+  grid-area: r-unit;
+  text-align: center;
+}
+
+.vl {
+  border-left: 4px solid rgb(237, 116, 36);
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 8rem;
+}
+
+.l-input {
+  margin-top: 2rem;
+}
+
+.r-input {
+  margin-top: 2rem;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  background-color: white;
+  color: black;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+    

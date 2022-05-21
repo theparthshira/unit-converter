@@ -1,0 +1,19 @@
+.main-head {
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(237, 116, 36);
+}
+
+.main-dropdown {
+  text-align: center;
+}
+
+#main-down {
+  text-decoration: none;
+  color: pink;
+  background-color: black;
+}
+
+.m12 {
+  text-decoration: none;
+}
